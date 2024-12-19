@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        select, button {
+            padding: 10px;
+            margin: 10px;
+        }
+        #stock-price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Price Tracker</h1>
+    <label for="company">Select a company:</label>
+    <select id="company">
+        <option value="TATAMOTORS:NSE">Tata Motors (NSE)</option>
+        <option value="RELIANCE:NSE">Reliance Industries (NSE)</option>
+        <option value="INFY:NSE">Infosys (NSE)</option>
+        <option value="HDFCBANK:NSE">HDFC Bank (NSE)</option>
+        <option value="SBIN:NSE">State Bank of India (NSE)</option>
+    </select>
+    <button id="startTracking">Start Tracking</button>
+
+    <div id="stock-price">Stock price will be displayed here.</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
